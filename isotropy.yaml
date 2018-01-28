@@ -12,6 +12,9 @@ services:
       - location: /static
         type: static
         path: static
+      - location: /client
+        type: static
+        path: client
 modules:
   - name: static
   - name: client
