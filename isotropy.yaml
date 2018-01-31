@@ -14,12 +14,12 @@ services:
         path: static
       - location: /client
         type: static
-        path: client
+        path: client/dist
 modules:
   - name: static
   - name: client
-    build:
+    builds:
       - type: typescript
   - name: server
-    build:
+    builds:
       - type: typescript

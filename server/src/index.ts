@@ -12,3 +12,4 @@ app.addRoutes([
   ]
 ]);
 
+export default app;
