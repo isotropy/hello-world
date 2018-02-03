@@ -19,7 +19,7 @@ modules:
   - name: static
   - name: client
     builds:
-      - type: typescript
+      - type: webpack
   - name: server
     builds:
       - type: typescript

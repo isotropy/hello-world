@@ -7,7 +7,7 @@ interface Props {
 
 class MainView extends React.Component<Props> {
   render() {
-    return <div>{this.props.greeting}</div>;
+    return <div>The greeting is: {this.props.greeting}</div>;
   }
 }
 
@@ -21,5 +21,7 @@ async function onLoad() {
     );
   });
 }
+
+debugger;
 
 onLoad();
